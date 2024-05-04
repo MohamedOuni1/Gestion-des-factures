@@ -1,0 +1,60 @@
+/* Barre de navigation */
+
+.Nav {
+  background-color: #333;
+  color: #fff;
+  padding: 20px 0; /* Augmenter l'espacement en haut et en bas */
+  text-align: center; /* Centrer le texte horizontalement */
+}
+
+.NavLeft,
+.NavRight {
+  flex: 1; /* Égaliser l'espace autour des éléments */
+}
+
+.NavList {
+  list-style-type: none;
+  padding: 0;
+  margin: 0;
+}
+
+.NavItem {
+  display: inline-block; /* Afficher les éléments en ligne */
+  margin-left: 10px; /* Espacement entre les éléments */
+}
+
+.NavLink {
+  color: #fff;
+  text-decoration: none;
+  padding: 10px 20px; /* Ajouter de l'espace autour des liens */
+  transition: background-color 0.3s ease;
+}
+
+.NavLink.active {
+  background-color: #555;
+}
+
+
+.Footer {
+  background-color: #333;
+  color: #fff;
+  padding: 20px 0;
+  text-align: center;
+  margin-top: 500px; /* Ajouter une marge supérieure pour éloigner le pied de page */
+}
+
+/* Ajustement du style pour le pied de page */
+.Footer p {
+  margin: 0; /* Supprimer les marges par défaut */
+}
+
+.Footer a {
+  color: #fff;
+  text-decoration: none;
+  padding: 10px 20px;
+  transition: background-color 0.3s ease;
+}
+
+.Footer a:hover {
+  background-color: #555;
+}

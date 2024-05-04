@@ -1,0 +1,38 @@
+.details-container {
+    max-width: 600px;
+    margin: 0 auto;
+    padding: 20px;
+  }
+  
+  .details-title {
+    color: #333;
+    font-size: 24px;
+    margin-bottom: 20px;
+  }
+  
+  .details-content {
+    border: 1px solid #ccc;
+    padding: 20px;
+    border-radius: 5px;
+  }
+  
+  .details-label {
+    font-weight: bold;
+    color:red;
+  }
+  
+  .image-container {
+    margin-top: 20px;
+  }
+  
+  .image-wrapper {
+    display: flex;
+    align-items: center;
+  }
+  
+  .article-image {
+    margin-left: 10px;
+    border: 1px solid #ccc;
+    border-radius: 5px;
+  }
+  
